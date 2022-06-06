@@ -24,7 +24,7 @@ st.sidebar.subheader(":email:Email:antony10283@gmail.com")
 st.title('履歷')
 st.subheader('關於我:')
 
-path='C:/Users/anton/OneDrive/桌面/python/履歷/關於我.txt'
+path='resume/關於我.txt'
 f = open(path, encoding="utf-8")
 lines = f.readlines()
 for line in lines:
@@ -33,7 +33,7 @@ f.close()
 
 
 
-path3='C:/Users/anton/OneDrive/桌面/python/履歷/技能.txt'
+path3='resume/技能.txt'
 f3 = open(path3, encoding="utf-8")
 lines3 = f3.readlines()
 with st.expander("程式技能"):
