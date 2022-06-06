@@ -4,7 +4,7 @@ import plotly.express as px
 from PIL import Image
 import matplotlib.pyplot as plt
 
-image = Image.open('0918988608-朱國安.jpg')
+image = Image.open('resume/0918988608-朱國安.jpg')
 st.sidebar.title("朱國安的履歷")
 st.sidebar.image(image,width=180)
 st.sidebar.header("姓名:朱國安")
@@ -131,7 +131,7 @@ elif skill=='其他':
 
 if program=='機器學習量化投資':
     st.write('開發專案:利用機器學習分類方法，協助判斷股市多空行情，交叉驗證準確度88%，標準差1%')
-    pdfFileObj = open('基於機器學習模型對台灣加權指數量化交易研究.pdf', 'rb')
+    pdfFileObj = open('resume/基於機器學習模型對台灣加權指數量化交易研究.pdf', 'rb')
     st.download_button(
         label="Download 基於機器學習模型對台灣加權指數量化交易研究.pdf",
         data=pdfFileObj,
@@ -139,7 +139,7 @@ if program=='機器學習量化投資':
         mime='pdf',
     )
     for i in range(15):
-        i = Image.open('1-{}.png'.format(i+1))
+        i = Image.open('resume/1-{}.png'.format(i+1))
         st.image(i,width=800)
 elif program=='加權指數與匯率關係':
     st.write(
@@ -147,7 +147,7 @@ elif program=='加權指數與匯率關係':
         ，新台幣與股市為負向關係，且回歸R-square高達92%，也幫助我在四月份時發現台幣開始貶值，避開下跌段
         ''')
     for i in range(3):
-        i = Image.open('2-{}.png'.format(i+1))
+        i = Image.open('resume/2-{}.png'.format(i+1))
         st.image(i,width=800)
 elif program=='數據分析練習截圖':
     st.subheader('python數據分析練習:')
