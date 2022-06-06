@@ -154,101 +154,101 @@ elif program=='數據分析練習截圖':
     st.text('''
     學習python統計各種方法，透過程式語言有:更快、速避免計算錯誤、不用硬背公式等優點，幫助我分析不同問題
     ''')
-    st.image(Image.open('3-1.png'),width=300)
+    st.image(Image.open('resume/3-1.png'),width=300)
     st.subheader('''分類方法:KNN、決策樹、RandomForest、SVM、LDA''')
-    st.image(Image.open('3-2.png'),width=800)
+    st.image(Image.open('resume/3-2.png'),width=800)
     st.subheader('''變異數分析ANOVA:一元變異數分析、多重比較檢驗、多因素分析、交互影響''')
-    st.image(Image.open('3-3.png'),width=800)
+    st.image(Image.open('resume/3-3.png'),width=800)
     st.subheader('''列連分析、對應分析MCA''')
-    st.image(Image.open('3-4.png'),width=800)
+    st.image(Image.open('resume/3-4.png'),width=800)
     st.subheader('相關分析、關聯分析:')
-    st.image(Image.open('3-5.png'),width=800)
+    st.image(Image.open('resume/3-5.png'),width=800)
     col1,col2=st.columns(2)
     with col1:
         st.subheader('假設檢定')
-        st.image(Image.open('3-6.png'),width=400)
+        st.image(Image.open('resume/3-6.png'),width=400)
     with col2:
         st.subheader('回歸分析')
-        st.image(Image.open('3-7.png'),width=400)
+        st.image(Image.open('resume/3-7.png'),width=400)
 elif program=='投資組合dashboard':
     st.subheader('投資組合dashboard:')
     st.write('利用效率前緣理論，幫助投資人於台股前100大公司中，投資組合達到最佳投資組合資產配置')
     st.subheader('https://share.streamlit.io/antony0315/stockprofolio/main/dashboard.py')
     for i in range(3):
-        i = Image.open('4-{}.png'.format(i+1))
+        i = Image.open('resume/4-{}.png'.format(i+1))
         st.image(i,width=800)
 elif program=='蒙地卡羅模擬法':
     st.write('透過蒙地卡羅模擬法，尋找出股價波動的最大風險')
     for i in range(3):
-        i = Image.open('5-{}.png'.format(i+1))
+        i = Image.open('resume/5-{}.png'.format(i+1))
         st.image(i,width=600)
 elif program=='其他練習':
     st.subheader('logit回歸練習')
-    st.image(Image.open('6-1.png'),width=800)
+    st.image(Image.open('resume/6-1.png'),width=800)
     st.subheader('LSTM模型預測航空公司旅客人數')
-    st.image(Image.open('6-2.png'),width=800)
+    st.image(Image.open('resume/6-2.png'),width=800)
     st.subheader('tensorflow練習')
-    st.image(Image.open('6-3.png'),width=800)
-    st.image(Image.open('6-4.png'),width=800)
+    st.image(Image.open('resume/6-3.png'),width=800)
+    st.image(Image.open('resume/6-4.png'),width=800)
     st.subheader('selenium自動化爬蟲')
-    st.video('v1.mp4',"mp4")
+    st.video('resume/v1.mp4',"mp4")
     st.subheader('word2vec+RNN語意分析練習')
-    st.image(Image.open('6-5.png'),width=700)
-    st.image(Image.open('6-6.png'),width=700)
-    st.image(Image.open('6-7.png'),width=700)
-    st.image(Image.open('6-8.png'),width=700)
+    st.image(Image.open('resume/6-5.png'),width=700)
+    st.image(Image.open('resume/6-6.png'),width=700)
+    st.image(Image.open('resume/6-7.png'),width=700)
+    st.image(Image.open('resume/6-8.png'),width=700)
 
 
 if program=='線性模型':
     st.write('線性模型')
     for i in range(6):
-        i = Image.open('2-1-{}.png'.format(i+1))
+        i = Image.open('resume/2-1-{}.png'.format(i+1))
         st.image(i,width=800)
 elif program=='資料前處理':
     st.write('資料前處理')
     st.subheader('outlier_test')
-    st.image(Image.open('2-2-1.png'),width=800)
+    st.image(Image.open('resume/2-2-1.png'),width=800)
     st.subheader('PCA降維')
-    st.image(Image.open('2-2-2.png'),width=800)
+    st.image(Image.open('resume/2-2-2.png'),width=800)
 elif program=='模型':
     st.subheader('決策樹模型')
-    st.image(Image.open('2-3-1.png'),width=800)
+    st.image(Image.open('resume/2-3-1.png'),width=800)
     st.subheader('XGBOOST')
-    st.image(Image.open('2-3-2.png'),width=800)
+    st.image(Image.open('resume/2-3-2.png'),width=800)
 
 if program=='SQL課程':
     st.subheader('SQL_sever_2019')
-    st.image(Image.open('3-1-1.png'),width=700)
+    st.image(Image.open('resume/3-1-1.png'),width=700)
     st.subheader('ER_model')
-    st.image(Image.open('3-1-2.png'),width=700)
+    st.image(Image.open('resume/3-1-2.png'),width=700)
     st.subheader('查詢語法')
-    st.image(Image.open('3-1-3.png'),width=700)
+    st.image(Image.open('resume/3-1-3.png'),width=700)
     st.subheader('進階查詢語法')
-    st.image(Image.open('3-1-4.png'),width=700)
+    st.image(Image.open('resume/3-1-4.png'),width=700)
     st.subheader('巢狀語法')
-    st.image(Image.open('3-1-5.png'),width=700)
-    st.image(Image.open('3-1-6.png'),width=700)
+    st.image(Image.open('resume/3-1-5.png'),width=700)
+    st.image(Image.open('resume/3-1-6.png'),width=700)
 
 if program=='投資比賽':
     st.write('參與了3次元大證券辦得投資競賽，兩次於數千人之中進入前1%，投資是一項有趣的活動，結合了對產業知識的了解，時事的分析，與各項數據的洞察，綜合各項資訊做出判斷')
     st.write('相關報導'+'https://www.chinatimes.com/newspapers/20201223000349-260206?chdtv')
-    st.image(Image.open('4-1-3.png'),width=700)
+    st.image(Image.open('resume/4-1-3.png'),width=700)
     col1,col2=st.columns(2)
     with col1:
-        st.image(Image.open('4-1-1.jpg'),width=300)
+        st.image(Image.open('resume/4-1-1.jpg'),width=300)
     with col2:
-        st.image(Image.open('4-1-2.jpg'),width=300)
-    st.image(Image.open('4-1-4.png'),width=800)
+        st.image(Image.open('resume/4-1-2.jpg'),width=300)
+    st.image(Image.open('resume/4-1-4.png'),width=800)
 elif program=='財報分析報告':
     st.write('財報分析課程分析報告')
-    pdfFileObj = open('研究報告.pdf', 'rb')
+    pdfFileObj = open('resume/研究報告.pdf', 'rb')
     st.download_button(
         label="Download 研究報告.pdf",
         data=pdfFileObj,
         file_name='研究報告.pdf',
         mime='pdf',
     )
-    pdfFileObj = open('被動元件族群財務狀況比較.pdf', 'rb')
+    pdfFileObj = open('resume/被動元件族群財務狀況比較.pdf', 'rb')
     st.download_button(
         label="Download 被動元件族群財務狀況比較.pdf",
         data=pdfFileObj,
@@ -257,6 +257,6 @@ elif program=='財報分析報告':
     )
 elif program=='multichart程式交易作業':
     for i in range(3):
-        i = Image.open('5-1-{}.png'.format(i+1))
+        i = Image.open('resume/5-1-{}.png'.format(i+1))
         st.image(i,width=600)
-    st.image(Image.open('5-1-5.jpg'),width=600)
+    st.image(Image.open('resume/5-1-5.jpg'),width=600)
