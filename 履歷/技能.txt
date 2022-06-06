@@ -1,0 +1,25 @@
+***python學習使用的套件包括***:
+      1.資料處理當中的pandas、numpy
+      2.資料視覺化:matplotlib、plotly、seaborn
+      3.機器學習當中與特徵工程:scikit-learn、xgboost、tensorflow
+      4.數據分析當中scipy、statsmodel、scikit-learn，應用包括:
+        __分類:KNN、SVM、決策樹、隨機森林
+        __變異數分析:ANOVA(一元、多元)
+        __列聯分析與對應分析
+        __回歸分析:一元線性、多元回歸、虛擬變數回歸、非線性回歸
+        __相關分析與關聯分析:相關係數矩陣、相關係數檢定、次序間的關係、apriori(購物籃分析)
+        __統計假設檢定
+        __聚類:系統聚類、K-means
+        __二元回歸、logit回歸、Poisson Regression
+      5.數據儀表板:streamlit
+      6.資料爬蟲:selenium網頁自動化、requests、bs4
+
+***R語言***:
+      1.機器學習:SVM、C5.0(tree model)、xgboost、glm
+      2.資料前處理、PCA降維等
+      3.對應分析
+      
+***SQL資料庫(SQL sever 2019)***:
+      建表、ER_model、查詢語法、巢狀查詢、新增修改刪除語法
+
+    
