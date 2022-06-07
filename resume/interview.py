@@ -228,6 +228,9 @@ if program=='SQL課程':
     st.subheader('巢狀語法')
     st.image(Image.open('resume/3-1-5.png'),width=700)
     st.image(Image.open('resume/3-1-6.png'),width=700)
+    st.subheader('python串接MS SQL')
+    st.image(Image.open('resume/3-1-7.png'),width=700)
+    
 
 if program=='投資比賽':
     st.write('參與了3次元大證券辦得投資競賽，兩次於數千人之中進入前1%，投資是一項有趣的活動，結合了對產業知識的了解，時事的分析，與各項數據的洞察，綜合各項資訊做出判斷')
