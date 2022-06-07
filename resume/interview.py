@@ -229,7 +229,7 @@ if program=='SQL課程':
     st.image(Image.open('resume/3-1-5.png'),width=700)
     st.image(Image.open('resume/3-1-6.png'),width=700)
     st.subheader('python串接MS SQL')
-    st.image(Image.open('resume/3-1-7.png'),width=700)
+    st.image(Image.open('3-1-7.png'),width=700)
     
 
 if program=='投資比賽':
