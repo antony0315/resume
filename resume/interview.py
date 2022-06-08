@@ -140,9 +140,12 @@ if program=='機器學習量化投資':
         file_name='基於機器學習模型對台灣加權指數量化交易研究.pdf',
         mime='pdf',
     )
+    st.subheader("以下為近期測試成果，紅色線為模型判定多頭，黑色現為模型判別空頭")
+    st.image(Image.open('pred.png')),width=800)
     for i in range(15):
         i = Image.open('resume/1-{}.png'.format(i+1))
         st.image(i,width=800)
+
 elif program=='加權指數與匯率關係':
     st.write(
         '''曾經聽到某位分析師說新台幣不停的升值，會造成公司匯損，股價會下跌，抱持著好奇心的我，透過回歸分析發現，與他所講的不同
