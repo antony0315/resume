@@ -72,8 +72,8 @@ df7 = pd.DataFrame(dict(
     subjects=['金融商品設計與開發','交易策略設計與分析','計量經濟學','民法概要','銀行授信管理','印尼語']))
 
 df8 = pd.DataFrame(dict(
-    score=[],
-    subjects=[]))
+    score=[90,87,93,87,91],
+    subjects=['精算大數據專題','金融APPS設計','投資策略實務','人工智慧導論','資料庫']))
 
 fig1 = px.line_polar(df1, r='score', theta='subjects', line_close=True)
 fig2 = px.line_polar(df2, r='score', theta='subjects', line_close=True)
@@ -109,10 +109,12 @@ elif option=='大三':
         st.subheader('下學期')
         st.plotly_chart(fig6, use_container_width=True)
 elif option=='大四':
+    with col1:
+        st.subheader('上學期')
         st.plotly_chart(fig7, use_container_width=True)
-
-
-
+    with col2:
+        st.subheader('下學期')
+        st.plotly_chart(fig8, use_container_width=True)
 st.subheader('我的作品集:')
 skill = st.radio(
      "您要查看的作品集",
