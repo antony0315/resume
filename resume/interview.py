@@ -140,6 +140,8 @@ if program=='機器學習量化投資':
         file_name='基於機器學習模型對台灣加權指數量化交易研究.pdf',
         mime='pdf',
     )
+    st.subheader("以下為近期測試成果，紅色線為模型判定多頭，黑色現為模型判別空頭")
+    st.image(Image.open('resume/pred.png')),width=800)
     for i in range(15):
         i = Image.open('resume/1-{}.png'.format(i+1))
         st.image(i,width=800)
