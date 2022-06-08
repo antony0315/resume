@@ -141,7 +141,7 @@ if program=='機器學習量化投資':
         mime='pdf',
     )
     st.subheader("以下為近期測試成果，紅色線為模型判定多頭，黑色現為模型判別空頭")
-    st.image(Image.open('pred.png')),width=800)
+    st.image(Image.open('resume/pred.png')),width=800)
     for i in range(15):
         i = Image.open('resume/1-{}.png'.format(i+1))
         st.image(i,width=800)
