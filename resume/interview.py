@@ -122,7 +122,7 @@ skill = st.radio(
 
 
 if skill=='python':
-    program=st.selectbox('請選擇pythony作品:',('機器學習量化投資','加權指數與匯率關係','數據分析練習截圖','投資組合dashboard','蒙地卡羅模擬法','其他練習'))
+    program=st.selectbox('請選擇pythony作品:',('機器學習量化投資','加權指數與匯率關係','python數據分析','投資組合dashboard','蒙地卡羅模擬法','其他練習'))
 elif skill=='R':
     program=st.selectbox('請選擇R練習作品:',('線性模型','資料前處理','模型'))
 elif skill=='SQL':
@@ -155,8 +155,8 @@ elif program=='加權指數與匯率關係':
     for i in range(3):
         i = Image.open('resume/2-{}.png'.format(i+1))
         st.image(i,width=800)
-elif program=='數據分析練習截圖':
-    st.subheader('python數據分析練習:')
+elif program=='python數據分析':
+    st.subheader('python數據分析:')
     st.text('''
     學習python統計各種方法，透過程式語言有:更快、速避免計算錯誤、不用硬背公式等優點，幫助我分析不同問題
     ''')
